@@ -10,7 +10,7 @@
   <title>{{ .Title }} | {{ .Site.Title }}</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/css/editorial.css">
   <style>
   .article-content h2 { font-family: var(--font-display); margin: 2.5rem 0 1rem; color: var(--accent); font-size: 1.5rem; }
@@ -39,12 +39,11 @@
     <button class="ed-nav-toggle" aria-label="Menu" onclick="document.querySelector('.ed-nav').classList.toggle('open')">&#9776;</button>
     <nav class="ed-nav">
       <a href="/">News</a>
-      <a href="/services.html">Services</a>
+      <a href="/articles/" class="active">Projects</a>
+      <a href="/#suppliers">Suppliers</a>
+      <a href="/#suppliers">Materials</a>
       <a href="/about.html">About</a>
-      <a href="/articles/" class="active">Articles</a>
       <a href="/contact.html">Contact</a>
-      <a href="/advertise.html">Advertise</a>
-      <a href="/viewer.html">3D Viewer</a>
     </nav>
     <button class="ed-theme-toggle" id="themeToggle" aria-label="Toggle light/dark mode" title="Toggle light/dark mode">&#9790;</button>
   </div>
@@ -68,29 +67,27 @@
       <h4>Navigation</h4>
       <ul>
         <li><a href="/">News</a></li>
-        <li><a href="/services.html">Services</a></li>
+        <li><a href="/articles/">Projects</a></li>
         <li><a href="/about.html">About</a></li>
-        <li><a href="/articles/">Articles</a></li>
         <li><a href="/contact.html">Contact</a></li>
-      </ul>
-    </div>
-    <div>
-      <h4>Services</h4>
-      <ul>
-        <li><a href="/services.html">DMLS / SLM</a></li>
-        <li><a href="/services.html">Rapid Prototyping</a></li>
-        <li><a href="/services.html">Post-Processing</a></li>
-        <li><a href="/advertise.html">Advertise With Us</a></li>
       </ul>
     </div>
     <div>
       <h4>Coverage</h4>
       <ul>
-        <li><a href="#">Aerospace</a></li>
-        <li><a href="#">Medical</a></li>
-        <li><a href="#">Automotive</a></li>
-        <li><a href="#">Industrial</a></li>
-        <li><a href="#">Materials</a></li>
+        <li><a href="#">Concrete Printing</a></li>
+        <li><a href="#">Facade Panels</a></li>
+        <li><a href="#">Printed Homes</a></li>
+        <li><a href="/advertise.html">Advertise With Us</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Applications</h4>
+      <ul>
+        <li><a href="#">Residential</a></li>
+        <li><a href="#">Commercial</a></li>
+        <li><a href="#">Civic</a></li>
+        <li><a href="#">Infrastructure</a></li>
       </ul>
     </div>
   </div>
