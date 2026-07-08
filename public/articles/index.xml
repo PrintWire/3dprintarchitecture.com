@@ -15,5 +15,26 @@
       <guid>https://3dprintarchitecture.com/articles/robotic-3d-printing-large-format-industrial-infrastructure/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Robotic 3D printing large format industrial infrastructure&lt;/strong&gt; is no longer a research curiosity. Across construction sites, pipe fabrication yards, and civil engineering projects, multi-axis robotic systems are depositing material at scales — and in geometries — that conventional forming, casting, and assembly methods cannot match.&lt;/p&gt;&#xA;&lt;p&gt;This article examines how these systems work, what materials and processes are in use today, and where the real-world applications are taking hold.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;how-large-format-robotic-additive-systems-are-built&#34;&gt;How Large-Format Robotic Additive Systems Are Built&lt;/h2&gt;&#xA;&lt;p&gt;Two broad motion architectures dominate the large-format space: &lt;strong&gt;gantry systems&lt;/strong&gt; and &lt;strong&gt;6-axis robotic arm systems&lt;/strong&gt;.&lt;/p&gt;</description>
     </item>
+    <item>
+      <title>Cement-Polymer 3D Printed Concrete Composites Achieve 187x Fracture Toughness Gain</title>
+      <link>https://3dprintarchitecture.com/articles/3d-printed-concrete-composites-cement-polymer-printing-construction-am/</link>
+      <pubDate>Thu, 25 Jun 2026 06:02:37 -0600</pubDate>
+      <guid>https://3dprintarchitecture.com/articles/3d-printed-concrete-composites-cement-polymer-printing-construction-am/</guid>
+      <description>&lt;p&gt;Concrete is abundant, cheap, and compressive — and notoriously brittle. A crack that initiates under tensile load in ordinary concrete propagates with almost no resistance, which is why steel reinforcement has been the go-to solution for over 150 years. But &lt;strong&gt;3D printed concrete composites&lt;/strong&gt; developed at Princeton University suggest a different path: instead of embedding separate reinforcement, print a multimaterial architecture directly into the cementitious matrix that redirects cracks the way bone and nacre do in nature.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Stronger, Faster, Smarter: How 3D Printed Cement Composites Are Transforming Construction</title>
+      <link>https://3dprintarchitecture.com/articles/3d-printed-cement-concrete-additive-manufacturing/</link>
+      <pubDate>Wed, 24 Jun 2026 06:04:30 -0600</pubDate>
+      <guid>https://3dprintarchitecture.com/articles/3d-printed-cement-concrete-additive-manufacturing/</guid>
+      <description>&lt;p&gt;The construction industry has used concrete in essentially the same way for over a century — pour it into a form, wait for it to cure, repeat. But &lt;strong&gt;3D printed cement concrete additive manufacturing&lt;/strong&gt; is disrupting that model at the material level, not just the process level. By combining precision deposition with engineered fiber-reinforced mix designs, researchers and contractors are producing cementitious composites that outperform conventional concrete on nearly every structural metric — including fracture toughness improvements documented at over 100 times that of plain cement paste.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ICON&#39;s Titan Program: How Robotic 3D Concrete Printing Construction Is Scaling for Housing and Infrastructure</title>
+      <link>https://3dprintarchitecture.com/articles/robotic-3d-concrete-printing-construction-icon-titan/</link>
+      <pubDate>Mon, 22 Jun 2026 06:03:33 -0600</pubDate>
+      <guid>https://3dprintarchitecture.com/articles/robotic-3d-concrete-printing-construction-icon-titan/</guid>
+      <description>&lt;p&gt;The conversation around &lt;strong&gt;robotic 3D concrete printing construction&lt;/strong&gt; has shifted from proof-of-concept to production. Austin-based ICON has been printing homes since 2018, and with its Titan program, the company is pushing the technology toward something more ambitious: a scalable platform capable of delivering housing communities and civil infrastructure at a pace that traditional methods cannot match.&lt;/p&gt;&#xA;&lt;p&gt;This is not a pitch for a single printed house. Titan represents a systems-level rethink of how automated construction operates at scale — from the hardware platform itself to the supply chain and permitting frameworks needed to support it.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>
