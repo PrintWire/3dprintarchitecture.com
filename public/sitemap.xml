@@ -2,15 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://3dprintarchitecture.com/viewer/</loc>
-  </url><url>
     <loc>https://3dprintarchitecture.com/</loc>
+    <lastmod>2026-06-30T06:10:00-06:00</lastmod>
+  </url><url>
+    <loc>https://3dprintarchitecture.com/articles/</loc>
+    <lastmod>2026-06-30T06:10:00-06:00</lastmod>
+  </url><url>
+    <loc>https://3dprintarchitecture.com/articles/robotic-3d-printing-large-format-industrial-infrastructure/</loc>
+    <lastmod>2026-06-30T06:10:00-06:00</lastmod>
+  </url><url>
+    <loc>https://3dprintarchitecture.com/viewer/</loc>
   </url><url>
     <loc>https://3dprintarchitecture.com/about/</loc>
   </url><url>
     <loc>https://3dprintarchitecture.com/advertise/</loc>
-  </url><url>
-    <loc>https://3dprintarchitecture.com/articles/</loc>
   </url><url>
     <loc>https://3dprintarchitecture.com/services/</loc>
   </url><url>

@@ -6,6 +6,14 @@
     <description>Recent content in Architectural 3D Printing Research &amp; News on 3D Print Architecture</description>
     <generator>Hugo</generator>
     <language>en-us</language>
+    <lastBuildDate>Tue, 30 Jun 2026 06:10:00 -0600</lastBuildDate>
     <atom:link href="https://3dprintarchitecture.com/articles/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Multi-Meter Robotic 3D Printing: Transforming Infrastructure and Large-Scale Industrial Manufacturing</title>
+      <link>https://3dprintarchitecture.com/articles/robotic-3d-printing-large-format-industrial-infrastructure/</link>
+      <pubDate>Tue, 30 Jun 2026 06:10:00 -0600</pubDate>
+      <guid>https://3dprintarchitecture.com/articles/robotic-3d-printing-large-format-industrial-infrastructure/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Robotic 3D printing large format industrial infrastructure&lt;/strong&gt; is no longer a research curiosity. Across construction sites, pipe fabrication yards, and civil engineering projects, multi-axis robotic systems are depositing material at scales — and in geometries — that conventional forming, casting, and assembly methods cannot match.&lt;/p&gt;&#xA;&lt;p&gt;This article examines how these systems work, what materials and processes are in use today, and where the real-world applications are taking hold.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;how-large-format-robotic-additive-systems-are-built&#34;&gt;How Large-Format Robotic Additive Systems Are Built&lt;/h2&gt;&#xA;&lt;p&gt;Two broad motion architectures dominate the large-format space: &lt;strong&gt;gantry systems&lt;/strong&gt; and &lt;strong&gt;6-axis robotic arm systems&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>
