@@ -1,9 +1,17 @@
 baseURL = "https://3dprintarchitecture.com/"
 languageCode = "en-us"
 title = "3D Print Architecture"
-theme = "printwire"
+
+[outputs]
+  home = ["HTML", "JSON"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 [params]
+siteName      = "3D Print Architecture"
 tagline       = "From Model to Structure — Architectural AM at Every Scale."
 description   = "3D Print Architecture — precision scale models, robotic concrete extrusion, and facade panel manufacturing. Covering the full range of architectural additive manufacturing from desktop model to full-scale building element."
 keywords      = "architectural 3D printing, concrete 3D printing, scale models, facade printing, GRC panels, robotic construction, parametric architecture, building AM, construction 3D printing"
