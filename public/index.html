@@ -3,203 +3,297 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="3D Print Architecture — construction and architectural additive manufacturing news, projects, materials, and a directory connecting builders to suppliers.">
-  <meta property="og:title" content="3D Print Architecture — Construction &amp; Architectural AM News">
-  <meta property="og:description" content="News, projects, materials, and suppliers for construction and architectural 3D printing.">
-  <meta property="og:type" content="website">
-  <meta property="og:image" content="/images/01_concrete_layers.png">
-  <title>3D Print Architecture — Construction &amp; Architectural AM News</title>
+  <meta name="description" content="3D Print Architecture: construction and architectural additive manufacturing news, robotic concrete printing, facade panels, and a directory connecting builders to suppliers.">
+  <title>3D Print Architecture — Construction &amp; Architectural AM News &amp; Suppliers</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/css/editorial.css">
-  <style>
-  /* Homepage-only chrome not covered by editorial.css */
-  .ed-ticker {
-    background: var(--accent);
-    color: #fff;
-    font-family: var(--font-display);
-    font-weight: 600;
-    font-size: 0.82rem;
-    letter-spacing: 0.03em;
-    padding: 7px 0;
-  }
-  .ed-ticker-inner {
-    max-width: 1280px; margin: 0 auto; padding: 0 1.5rem;
-    display: flex; gap: 12px; align-items: center;
-  }
-  .ed-ticker b { background: rgba(255,255,255,0.2); padding: 2px 8px; border-radius: 2px; }
-  .ed-two-cols {
-    display: grid;
-    grid-template-columns: 1.3fr 1fr;
-    gap: 2.5rem;
-    align-items: start;
-    margin-bottom: 3rem;
-  }
-  .ed-two-cols #newsGrid { grid-template-columns: 1fr; }
-  .ed-directory {
-    background: var(--bg-sidebar);
-    border: 1px solid var(--border);
-    border-radius: var(--radius);
-    padding: 1.5rem;
-  }
-  .ed-directory .ed-section-label { margin-top: 0; }
-  .ed-sup {
-    display: block;
-    padding: 0.9rem 1rem;
-    border: 1px solid var(--border);
-    border-radius: var(--radius-sm);
-    margin-bottom: 0.85rem;
-    background: var(--bg);
-    transition: border-color var(--transition);
-  }
-  .ed-sup:last-child { margin-bottom: 0; }
-  .ed-sup:hover { border-color: var(--accent); }
-  .ed-sup h4 { font-family: var(--font-display); font-size: 1rem; color: var(--heading); text-transform: none; letter-spacing: 0; margin-bottom: 0.2rem; }
-  .ed-sup p { font-size: 0.85rem; color: var(--text-dim); margin-bottom: 0.4rem; }
-  .ed-sup .ed-count { font-family: var(--font-display); font-size: 0.8rem; color: var(--accent); font-weight: 600; }
-  @media (max-width: 900px) { .ed-two-cols { grid-template-columns: 1fr; } }
-  </style>
+  <link rel="stylesheet" href="css/editorial.css">
 </head>
 <body>
-
-<!-- ── News Ticker ────────────────────────────── -->
-<div class="ed-ticker">
-  <div class="ed-ticker-inner">
-    <b>LIVE</b> Printed housing starts up 40% YoY · ICON + PALFINGER heavy-industry deal · New low-carbon mixes certified
-  </div>
-</div>
 
 <!-- ── Header ─────────────────────────────────── -->
 <header class="ed-header">
   <div class="ed-header-inner">
-    <a href="/" class="ed-logo">
-      3D PRINT <span class="ed-logo-accent">ARCHITECTURE</span>
+    <a href="index.html" class="ed-logo">
+      3D&nbsp;PRINT&nbsp;<span class="ed-logo-accent">ARCHITECTURE</span>
     </a>
     <button class="ed-nav-toggle" aria-label="Menu" onclick="document.querySelector('.ed-nav').classList.toggle('open')">&#9776;</button>
     <nav class="ed-nav">
-      <a href="/" class="active">News</a>
+      <a href="index.html" class="active">News</a>
       <a href="/articles/">Projects</a>
       <a href="#suppliers">Suppliers</a>
-      <a href="#">Materials</a>
-      <a href="#">Equipment</a>
-      <a href="/about.html">About</a>
+      <a href="#suppliers">Materials</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
     </nav>
     <button class="ed-theme-toggle" id="themeToggle" aria-label="Toggle light/dark mode" title="Toggle light/dark mode">&#9790;</button>
   </div>
 </header>
 
+<!-- ── Breadcrumbs ────────────────────────────── -->
+<div class="ed-breadcrumbs">
+  <a href="index.html">Home</a> <span>/</span> Architecture &amp; Construction News
+</div>
+
 <!-- ── Main Layout ────────────────────────────── -->
-<div class="ed-content">
+<div class="ed-layout">
+  <div class="ed-main">
 
-  <!-- Featured Story -->
-  <article class="ed-hero" style="margin-top:2rem;">
-    <img src="/images/05_facade_gradient.png" alt="Multi-meter robotic 3D printing">
-    <div class="ed-hero-overlay"></div>
-    <div class="ed-hero-content">
-      <span class="ed-badge">Infrastructure</span>
-      <h1><a href="#">Multi-Meter Robotic 3D Printing Is Reshaping How We Build</a></h1>
-      <div class="ed-hero-meta">
-        <span>Robotic Printing</span>
-        <span>·</span>
-        <span>June 30, 2026</span>
-        <span>·</span>
-        <span>7 min read</span>
+    <!-- Featured Story -->
+    <article class="ed-hero">
+      <img src="images/05_facade_gradient.png" alt="Large-format robotic 3D printing on a construction site">
+      <div class="ed-hero-overlay"></div>
+      <div class="ed-hero-content">
+        <span class="ed-badge">Infrastructure</span>
+        <h1><a href="#">Multi-Meter Robotic 3D Printing Is Reshaping How We Build</a></h1>
+        <div class="ed-hero-meta">
+          <span>June 30, 2026</span>
+          <span>·</span>
+          <span>7 min read</span>
+          <span>·</span>
+          <span>By PrintWire Editorial</span>
+        </div>
+        <p class="ed-hero-excerpt">Large-format robotic and gantry systems are depositing structural material at scales conventional methods can't match — from pipe yards to bridge spans and full building elements.</p>
       </div>
-      <p class="ed-hero-excerpt">Large-format robotic and gantry systems are depositing structural material at scales conventional methods can't match — from pipe yards to bridge spans.</p>
-    </div>
-  </article>
+    </article>
 
-  <!-- Stats Bar -->
-  <div class="ed-stats">
-    <div class="ed-stat">
-      <div class="ed-stat-value">40%</div>
-      <div class="ed-stat-label">Faster Builds</div>
-    </div>
-    <div class="ed-stat">
-      <div class="ed-stat-value">12m</div>
-      <div class="ed-stat-label">Max Span Printed</div>
-    </div>
-    <div class="ed-stat">
-      <div class="ed-stat-value">-31%</div>
-      <div class="ed-stat-label">Embodied Carbon</div>
-    </div>
-    <div class="ed-stat">
-      <div class="ed-stat-value">85+</div>
-      <div class="ed-stat-label">Active Suppliers</div>
-    </div>
-  </div>
-
-  <!-- PrintWire Originals — our own articles -->
-  <div class="ed-section-label">
-    PrintWire Originals
-    <a href="/articles/">View All &rarr;</a>
-  </div>
-  <div class="ed-card-grid" id="pwOriginals" style="grid-template-columns:repeat(3,1fr);">
-    <div style="grid-column:1/-1;text-align:center;padding:2rem;color:var(--text-faint);">Loading PrintWire articles…</div>
-  </div>
-
-  <!-- Two-column: Latest Industry News + Suppliers directory -->
-  <div class="ed-two-cols" id="suppliers">
-    <div>
-      <div class="ed-section-label">
-        Latest Industry News
-        <a href="#">View All &rarr;</a>
+    <!-- Stats Bar -->
+    <div class="ed-stats">
+      <div class="ed-stat">
+        <div class="ed-stat-value">40%</div>
+        <div class="ed-stat-label">Faster Builds</div>
       </div>
-      <div class="ed-card-grid" id="newsGrid" style="grid-template-columns:1fr;">
-        <div style="grid-column:1/-1;text-align:center;padding:2rem;color:var(--text-faint);">Loading latest news…</div>
+      <div class="ed-stat">
+        <div class="ed-stat-value">12m</div>
+        <div class="ed-stat-label">Max Span Printed</div>
+      </div>
+      <div class="ed-stat">
+        <div class="ed-stat-value">-31%</div>
+        <div class="ed-stat-label">Embodied Carbon</div>
+      </div>
+      <div class="ed-stat">
+        <div class="ed-stat-value">85+</div>
+        <div class="ed-stat-label">Active Suppliers</div>
       </div>
     </div>
 
-    <aside class="ed-directory">
-      <div class="ed-section-label">Suppliers &amp; Connections</div>
-      <a class="ed-sup" href="#">
-        <h4>Printers &amp; Systems</h4>
-        <p>Gantry and robotic-arm construction printers</p>
-        <span class="ed-count">18 suppliers &rarr;</span>
+    <!-- PrintWire Originals — network-wide originals (featured) -->
+    <div class="ed-section-label" style="border-left:3px solid var(--accent);padding-left:0.6rem;">
+      PrintWire Originals
+      <a href="/articles/">View All &rarr;</a>
+    </div>
+    <div class="ed-card-grid" id="pwOriginals">
+      <div style="grid-column:1/-1;text-align:center;padding:2rem;color:var(--text-faint);">Loading PrintWire articles…</div>
+    </div>
+
+    <!-- Latest News — PrintWire + industry (RSS) -->
+    <div class="ed-section-label">
+      Latest Industry News
+      <a href="#">View All &rarr;</a>
+    </div>
+    <div class="ed-card-grid" id="newsGrid">
+      <div style="grid-column: 1/-1; text-align:center; padding:2rem; color:var(--text-faint);">Loading latest news…</div>
+    </div>
+
+    <!-- Analysis & Deep Dives -->
+    <div class="ed-section-label">
+      Analysis &amp; Deep Dives
+      <a href="#">View All &rarr;</a>
+    </div>
+    <div class="ed-list">
+      <article class="ed-list-item">
+        <img src="images/07_scale_section.png" alt="Printed concrete wall section">
+        <div>
+          <span class="ed-badge">Construction</span>
+          <div class="ed-card-meta">June 24, 2026 · 8 min read</div>
+          <h3><a href="#">The Real Cost of Printed Concrete: 3DCP vs. Formwork at Building Scale</a></h3>
+          <p class="ed-card-excerpt">Where robotic concrete printing actually beats traditional formwork on cost — and the geometries where it wins by eliminating mold tooling entirely.</p>
+        </div>
+      </article>
+      <article class="ed-list-item">
+        <img src="images/11_staircase.png" alt="Parametric facade panel">
+        <div>
+          <span class="ed-badge">Facades</span>
+          <div class="ed-card-meta">June 20, 2026 · 7 min read</div>
+          <h3><a href="#">GRC vs. Polymer Composite Facade Panels: A Specifier's Comparison</a></h3>
+          <p class="ed-card-excerpt">Parametric relief at unitised cladding scale — how the two dominant printed-panel systems diverge on weight, weathering, and installation.</p>
+        </div>
+      </article>
+      <article class="ed-list-item">
+        <img src="images/12_foundation.png" alt="Reinforced printed foundation">
+        <div>
+          <span class="ed-badge">Structural</span>
+          <div class="ed-card-meta">June 18, 2026 · 10 min read</div>
+          <h3><a href="#">Reinforcement Strategies for Printed Concrete: Rebar, Fiber, and Post-Tensioning</a></h3>
+          <p class="ed-card-excerpt">The unsolved problem in 3DCP is steel. Here's how the leading contractors are getting printed walls to pass structural review.</p>
+        </div>
+      </article>
+    </div>
+
+    <!-- Applications -->
+    <div class="ed-section-label">
+      Applications We Cover
+    </div>
+    <div class="ed-card-grid" style="grid-template-columns: repeat(3, 1fr); gap: 1rem; margin-bottom: 2.5rem;">
+      <a href="#" class="ed-card" style="text-align:center;">
+        <img class="ed-card-img" src="images/08_site_integration.png" alt="Residential">
+        <div class="ed-card-body"><h3>Residential</h3></div>
       </a>
-      <a class="ed-sup" href="#">
-        <h4>Printable Materials</h4>
-        <p>Concrete mixes, geopolymers, composites</p>
-        <span class="ed-count">24 suppliers &rarr;</span>
+      <a href="#" class="ed-card" style="text-align:center;">
+        <img class="ed-card-img" src="images/09_column_lattice.png" alt="Commercial">
+        <div class="ed-card-body"><h3>Commercial</h3></div>
       </a>
-      <a class="ed-sup" href="#">
-        <h4>Contractors</h4>
-        <p>Certified 3DCP builders and installers</p>
-        <span class="ed-count">31 listed &rarr;</span>
+      <a href="#" class="ed-card" style="text-align:center;">
+        <img class="ed-card-img" src="images/10_modular_system.png" alt="Civic & Cultural">
+        <div class="ed-card-body"><h3>Civic &amp; Cultural</h3></div>
       </a>
-      <a class="ed-sup" href="#">
-        <h4>Engineering</h4>
-        <p>Structural review, permitting, QA partners</p>
-        <span class="ed-count">12 listed &rarr;</span>
+      <a href="#" class="ed-card" style="text-align:center;">
+        <img class="ed-card-img" src="images/13_window_frame.png" alt="Infrastructure">
+        <div class="ed-card-body"><h3>Infrastructure</h3></div>
       </a>
-    </aside>
+      <a href="#" class="ed-card" style="text-align:center;">
+        <img class="ed-card-img" src="images/14_ornament_detail.png" alt="Interiors">
+        <div class="ed-card-body"><h3>Interiors</h3></div>
+      </a>
+      <a href="#" class="ed-card" style="text-align:center;">
+        <img class="ed-card-img" src="images/03_wall_panels.png" alt="Landscape">
+        <div class="ed-card-body"><h3>Landscape</h3></div>
+      </a>
+    </div>
+
+    <!-- Load More -->
+    <div class="ed-load-more">
+      <button>Load More Articles</button>
+    </div>
+
   </div>
 
+  <!-- ── Sidebar ─────────────────────────────── -->
+  <aside class="ed-sidebar">
+
+    <!-- Newsletter -->
+    <div class="ed-sidebar-block ed-newsletter">
+      <h4>Newsletter</h4>
+      <p>Concrete printing milestones, facade panel projects, and construction robotics research — delivered monthly. No spam.</p>
+      <form action="https://api.web3forms.com/submit" method="POST" onsubmit="this.querySelector('button').textContent='Subscribed!';this.querySelector('button').disabled=true;">
+        <input type="hidden" name="access_key" value="6f33053b-6d08-414b-9615-665f88c98da8">
+        <input type="hidden" name="subject" value="Newsletter Signup — 3dprintarchitecture.com">
+        <input type="hidden" name="from_name" value="Newsletter Signup">
+        <input type="email" name="email" placeholder="your@email.com" required>
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+
+    <!-- Suppliers & Connections -->
+    <div class="ed-sidebar-block" id="suppliers">
+      <h4>Suppliers &amp; Connections</h4>
+      <div class="ed-popular-item">
+        <div>
+          <h3><a href="#">Printers &amp; Systems</a></h3>
+          <div class="ed-popular-meta">Gantry &amp; robotic-arm construction printers · 18 suppliers</div>
+        </div>
+      </div>
+      <div class="ed-popular-item">
+        <div>
+          <h3><a href="#">Printable Materials</a></h3>
+          <div class="ed-popular-meta">Concrete mixes, geopolymers, composites · 24 suppliers</div>
+        </div>
+      </div>
+      <div class="ed-popular-item">
+        <div>
+          <h3><a href="#">Contractors</a></h3>
+          <div class="ed-popular-meta">Certified 3DCP builders &amp; installers · 31 listed</div>
+        </div>
+      </div>
+      <div class="ed-popular-item">
+        <div>
+          <h3><a href="#">Engineering</a></h3>
+          <div class="ed-popular-meta">Structural review, permitting, QA partners · 12 listed</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Most Read -->
+    <div class="ed-sidebar-block">
+      <h4>Most Read</h4>
+      <div class="ed-popular-item">
+        <span class="ed-popular-num">1</span>
+        <div>
+          <h3><a href="#">ICON's Titan Program: Scaling Robotic Concrete Printing for Housing</a></h3>
+          <div class="ed-popular-meta">11.2K reads</div>
+        </div>
+      </div>
+      <div class="ed-popular-item">
+        <span class="ed-popular-num">2</span>
+        <div>
+          <h3><a href="#">3D Printed Homes 2026: From Prototype to Production</a></h3>
+          <div class="ed-popular-meta">9.4K reads</div>
+        </div>
+      </div>
+      <div class="ed-popular-item">
+        <span class="ed-popular-num">3</span>
+        <div>
+          <h3><a href="#">Cement-Polymer Composites Achieve 187x Fracture Toughness Gain</a></h3>
+          <div class="ed-popular-meta">7.6K reads</div>
+        </div>
+      </div>
+      <div class="ed-popular-item">
+        <span class="ed-popular-num">4</span>
+        <div>
+          <h3><a href="#">PALFINGER + ICON Push 3D Printed Construction Into Heavy Industry</a></h3>
+          <div class="ed-popular-meta">6.1K reads</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Ad Placeholder -->
+    <div class="ed-sidebar-block" style="text-align:center; color: var(--text-faint); font-size: 0.75rem; padding: 2.5rem 1rem;">
+      <div style="border: 1px dashed var(--border); border-radius: 4px; padding: 2rem 1rem;">
+        Ad Space<br>300×250
+      </div>
+    </div>
+
+    <!-- Network Links -->
+    <div class="ed-sidebar-block">
+      <h4>PrintWire Network</h4>
+      <div class="ed-network-links">
+        <a href="https://dmls3d.com">Metal 3D Printing</a>
+        <a href="https://3dprintconcrete.com">Concrete</a>
+        <a href="https://3dprintpipes.com">Industrial</a>
+        <a href="https://3dprintceramic.com">Ceramics</a>
+        <a href="https://3dprinttile.com">Tile &amp; Facades</a>
+        <a href="https://3dprinttissue.com">Bioprinting</a>
+        <a href="https://3dprintcircuitry.com">Electronics</a>
+        <a href="https://3dprintsolar.com">Solar</a>
+        <a href="https://sendcutship.com">Manufacturing</a>
+      </div>
+    </div>
+
+    <!-- Project CTA -->
+    <div class="ed-sidebar-block" style="background: linear-gradient(135deg, rgba(255,106,44,0.10), rgba(255,106,44,0.04)); border-color: var(--border-accent);">
+      <h4 style="color: var(--accent);">Start Your Project</h4>
+      <p style="font-size: 0.85rem; color: var(--text-dim); margin-bottom: 1rem; line-height: 1.5;">From a competition model to a 12-metre printed concrete wall — tell us about your project.</p>
+      <a href="contact.html" style="display:block;text-align:center;padding:0.65rem;background:var(--accent);border-radius:4px;color:#000;font-weight:600;font-size:0.8rem;transition:background 0.25s;" onmouseover="this.style.background='var(--accent-dark)'" onmouseout="this.style.background='var(--accent)'">Get in Touch</a>
+    </div>
+
+  </aside>
 </div>
 
 <!-- ── Footer ─────────────────────────────────── -->
 <footer class="ed-footer">
   <div class="ed-footer-inner">
     <div class="ed-footer-brand">
-      <div class="ed-logo" style="font-size:1.3rem; margin-bottom: 0.5rem;">3D PRINT <span class="ed-logo-accent">ARCHITECTURE</span></div>
-      <p>Construction &amp; architectural additive manufacturing news, projects, materials, and a directory connecting builders to suppliers. Part of the PrintWire network.</p>
+      <div class="ed-logo" style="font-size:1.3rem; margin-bottom: 0.5rem;">3D&nbsp;PRINT&nbsp;<span class="ed-logo-accent">ARCHITECTURE</span></div>
+      <p>Construction and architectural additive manufacturing news, projects, materials, and a directory connecting builders to suppliers. Part of the PrintWire network.</p>
     </div>
     <div>
-      <h4>Sections</h4>
+      <h4>Navigation</h4>
       <ul>
-        <li><a href="/">News</a></li>
+        <li><a href="index.html">News</a></li>
         <li><a href="/articles/">Projects</a></li>
-        <li><a href="#suppliers">Suppliers</a></li>
-        <li><a href="/about.html">About</a></li>
-      </ul>
-    </div>
-    <div>
-      <h4>Company</h4>
-      <ul>
-        <li><a href="/about.html">About</a></li>
-        <li><a href="/contact.html">Contact</a></li>
-        <li><a href="/advertise.html">Advertise</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
       </ul>
     </div>
     <div>
@@ -207,9 +301,17 @@
       <ul>
         <li><a href="#">Concrete Printing</a></li>
         <li><a href="#">Facade Panels</a></li>
-        <li><a href="#">Scale Models</a></li>
-        <li><a href="#">Robotic Construction</a></li>
-        <li><a href="#">Materials</a></li>
+        <li><a href="#">Printed Homes</a></li>
+        <li><a href="advertise.html">Advertise With Us</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Applications</h4>
+      <ul>
+        <li><a href="#">Residential</a></li>
+        <li><a href="#">Commercial</a></li>
+        <li><a href="#">Civic</a></li>
+        <li><a href="#">Infrastructure</a></li>
       </ul>
     </div>
   </div>
@@ -228,29 +330,25 @@ document.querySelector('.ed-nav-toggle')?.addEventListener('click', () => {
   document.querySelector('.ed-nav').classList.toggle('open');
 });
 
-// ── Theme toggle (light/dark) — dark default, persists in localStorage ──
+// ── Theme toggle (light/dark) — dark default ──
 (function() {
   const btn = document.getElementById('themeToggle');
   const root = document.documentElement;
-
   function setTheme(theme) {
     root.setAttribute('data-theme', theme);
     localStorage.setItem('ed-theme', theme);
     btn.innerHTML = theme === 'dark' ? '&#9790;' : '&#9728;';
     btn.title = theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode';
   }
-
-  // Default is dark (not system-based); honor saved preference if present.
   const saved = localStorage.getItem('ed-theme');
   setTheme(saved || 'dark');
-
   btn.addEventListener('click', () => {
     const current = root.getAttribute('data-theme') || 'dark';
     setTheme(current === 'dark' ? 'light' : 'dark');
   });
 })();
 
-// ── News Feed: PrintWire Originals + industry RSS ──
+// ── News Feed: network-wide PrintWire Originals + industry RSS ──
 (function() {
   var grid = document.getElementById('newsGrid');
   var orig = document.getElementById('pwOriginals');
@@ -268,9 +366,9 @@ document.querySelector('.ed-nav-toggle')?.addEventListener('click', () => {
   var loaded = 0;
   var total = feeds.length;
   var fallbackImgs = [
-    '/images/01_concrete_layers.png','/images/02_parametric_struct.png','/images/03_wall_panels.png',
-    '/images/04_printer_active.png','/images/05_facade_gradient.png','/images/06_reinforced_section.png',
-    '/images/08_site_integration.png','/images/09_column_lattice.png'
+    'images/01_concrete_layers.png','images/02_parametric_struct.png','images/03_wall_panels.png',
+    'images/04_printer_active.png','images/06_reinforced_section.png','images/08_site_integration.png',
+    'images/09_column_lattice.png','images/10_modular_system.png'
   ];
 
   function stripHtml(html) {
@@ -290,7 +388,7 @@ document.querySelector('.ed-nav-toggle')?.addEventListener('click', () => {
     var linkAttrs = a.local ? 'href="' + esc(a.link) + '"'
       : 'href="' + esc(a.link) + '" target="_blank" rel="noopener"';
     var badge = a.local
-      ? '<span class="ed-badge" style="background:var(--accent);color:#fff;">' + esc(a.source) + '</span>'
+      ? '<span class="ed-badge" style="background:var(--accent);color:#000;">' + esc(a.source) + '</span>'
       : '<span class="ed-badge">' + esc(a.source) + '</span>';
     return '<article class="ed-card" style="cursor:pointer" ' + open + '>' +
       '<img class="ed-card-img" src="' + esc(img) + '" alt="" loading="lazy" onerror="this.onerror=null;this.src=\'' + fb + '\'">' +
@@ -301,13 +399,13 @@ document.querySelector('.ed-nav-toggle')?.addEventListener('click', () => {
       '</div></article>';
   }
 
-  // 1) PrintWire's own articles (local JSON feed) — powers the featured section AND merges into the grid
-  var localReady = fetch('/index.json', { cache: 'no-store' })
+  // 1) Network-wide PrintWire originals (group feed) — powers featured section AND merges into grid
+  var localReady = fetch('network.json', { cache: 'no-store' })
     .then(function(r){ return r.ok ? r.json() : []; })
     .then(function(items){
       (items || []).forEach(function(it, i){
         localArts.push({ title: it.title, link: it.url, desc: it.summary || '',
-          date: it.iso, dateStr: it.date, source: 'PrintWire', local: true,
+          date: it.iso, dateStr: it.date, source: (it.origin || 'PrintWire'), local: true,
           img: it.img || fallbackImgs[i % fallbackImgs.length] });
       });
       if (orig) {
