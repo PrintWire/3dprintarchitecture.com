@@ -18,7 +18,7 @@ description   = "3D Print Architecture — precision scale models, robotic concr
 keywords      = "architectural 3D printing, concrete 3D printing, scale models, facade printing, GRC panels, robotic construction, parametric architecture, building AM, construction 3D printing"
 logoEmoji     = "🏗️"
 contactEmail  = "maxdavisgroup@gmail.com"
-ogImage       = "/images/01_concrete_layers.png"
+ogImage       = "/images/05_facade_gradient.png"
 footerServicesLabel = "Services"
 
 colorPrimary      = "#e8724a"
